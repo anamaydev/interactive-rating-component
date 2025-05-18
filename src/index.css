@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme{
+  --spacing-100: 0.5rem;  /*  8px */
+  --spacing-200: 1rem;    /*  16px */
+  --spacing-300: 1.5rem;  /*  24px */
+  --spacing-400: 2rem;    /*  32px */
+  --spacing-500: 2.5rem;  /*  40px */
+  --spacing-1300: 6.5rem; /* 104px */
+  --spacing-1700: 8.5rem; /* 136px */
+  
+  --color-white: hsla(0, 100%, 100%, 1);
+  --color-black: hsla(0, 0%, 0%, 1);
+  --color-grey-950: hsla(216, 12%, 8%, 1);
+  --color-grey-900: hsla(213, 19%, 18%, 1);
+  --color-grey-500: hsla(217, 12%, 63%, 1);
+  --color-orange-500: hsla(25, 97%, 53%, 1);
+  
+  --font-xxxl: 5rem;      /*testing*/
+  --font-xl: 1.75rem;     /* 28px */
+  --font-lg: 1.5rem;      /* 24px */
+  --font-md: 1rem;        /* 16px */
+  --font-base: 0.9375rem; /* 15px */
+  --font-sm: 0.875rem;    /* 14px */
+}
