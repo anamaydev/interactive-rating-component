@@ -39,3 +39,26 @@
        <div ref={backgroundRef} onClick={closeModal}></div>
    }
    ```
+   
+3. deployment using gh-pages
+   - Step 1: install `gh-pages`
+      ```bash
+         npm install --save-dev gh-pages
+      ```
+   - Step 2: add to vite.config.js
+     ```js
+        import { defineConfig } from 'vite';
+        import react from '@vitejs/plugin-react';
+
+        export default defineConfig({
+           base: '/my-repo-name/', // 👈 replace with GitHub repo name
+           plugins: [react()], 
+        });
+     ```
+   - Step 3: in package.json paste this in scripts
+     ```json
+        "script":{
+            "predeploy": "npm run build",
+            "deploy": "gh-pages -d dist"
+         }
+     ```

@@ -23,6 +23,8 @@
   --font-md: 1rem;        /* 16px */
   --font-base: 0.9375rem; /* 15px */
   --font-sm: 0.875rem;    /* 14px */
+  
+  --font-overpass: Overpass, sans-serif;
 }
 
 @layer components {
