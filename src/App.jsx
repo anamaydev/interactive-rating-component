@@ -13,7 +13,7 @@ function App() {
       </button>
       <RatingModal
         openRatingModal={openRatingModal}
-        setOperRatingModal={setOpenRatingModal}
+        setOpenRatingModal={setOpenRatingModal}
       />
     </main>
   )
